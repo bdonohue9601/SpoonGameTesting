@@ -1,20 +1,16 @@
 //
-//  ViewController.swift
+//  NavigationViewController.swift
 //  SpoonGameTesting
 //
-//  Created by Brad Donohue on 4/25/20.
+//  Created by Brad Donohue on 5/31/20.
 //  Copyright © 2020 Brad Donohue. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class NavigationViewController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-
