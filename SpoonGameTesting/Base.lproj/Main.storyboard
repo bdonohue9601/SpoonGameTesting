@@ -133,7 +133,7 @@
                         <barButtonItem key="leftBarButtonItem" title="User" image="Account_circle" id="MjO-rd-YBI">
                             <color key="tintColor" systemColor="labelColor"/>
                             <connections>
-                                <segue destination="OTr-16-ybO" kind="show" identifier="UserSegue" animates="NO" id="x0E-hK-b1c"/>
+                                <segue destination="OTr-16-ybO" kind="show" identifier="UserSegue" id="x0E-hK-b1c"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
