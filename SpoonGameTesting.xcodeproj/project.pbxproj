@@ -3,19 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		304094FFB59C3F2F70CA045A /* Pods_SpoonGameTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCC5D4DE5CED01583224F34 /* Pods_SpoonGameTesting.framework */; };
+		A225EFA124A6EE46003273EA /* UserNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A225EFA024A6EE46003273EA /* UserNavController.swift */; };
+		A225EFA324B3CF93003273EA /* CreateUserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A225EFA224B3CF93003273EA /* CreateUserNameViewController.swift */; };
+		A23C0E5F249687A300ECC53A /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23C0E5E249687A300ECC53A /* UserViewController.swift */; };
+		A23C0E612496C8D200ECC53A /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23C0E602496C8D200ECC53A /* UserInfoViewController.swift */; };
+		A25DE6F72482EDEC00F7631C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25DE6F62482EDEC00F7631C /* LoginViewController.swift */; };
+		A26C9A3824702C9C002A0AB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A26C9A3724702C9C002A0AB4 /* GoogleService-Info.plist */; };
+		A27647A5258A69FE00C903A8 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27647A4258A69FE00C903A8 /* GameOverViewController.swift */; };
+		A27647BC258A9C3500C903A8 /* CreateUserDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27647BB258A9C3500C903A8 /* CreateUserDict.swift */; };
+		A27647BF258AA00700C903A8 /* GameViewDataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27647BE258AA00700C903A8 /* GameViewDataCollection.swift */; };
 		A2A9B0102454CE7F00783E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9B00F2454CE7F00783E0C /* AppDelegate.swift */; };
 		A2A9B0122454CE7F00783E0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9B0112454CE7F00783E0C /* SceneDelegate.swift */; };
 		A2A9B0142454CE7F00783E0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9B0132454CE7F00783E0C /* ViewController.swift */; };
 		A2A9B0172454CE7F00783E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A9B0152454CE7F00783E0C /* Main.storyboard */; };
 		A2A9B0192454CE8100783E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A9B0182454CE8100783E0C /* Assets.xcassets */; };
 		A2A9B01C2454CE8100783E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A9B01A2454CE8100783E0C /* LaunchScreen.storyboard */; };
+		A2A9B0282454DBDC00783E0C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A9B0272454DBDB00783E0C /* CloudKit.framework */; };
+		A2A9B02A2467167F00783E0C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A9B0292467167F00783E0C /* GameViewController.swift */; };
+		A2AC124425524EE9003F60C8 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AC124325524EE9003F60C8 /* GameTableViewCell.swift */; };
+		A2B7D7CD24843B7400C8264C /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7D7CC24843B7400C8264C /* NavigationViewController.swift */; };
+		A2F290E3247C66390085B88E /* SpoonerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F290E2247C66390085B88E /* SpoonerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17FC6C1393D6AD872650691B /* Pods-SpoonGameTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpoonGameTesting.release.xcconfig"; path = "Target Support Files/Pods-SpoonGameTesting/Pods-SpoonGameTesting.release.xcconfig"; sourceTree = "<group>"; };
+		1BCC5D4DE5CED01583224F34 /* Pods_SpoonGameTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpoonGameTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		720DF15A0B8F2207FE14D1DF /* Pods-SpoonGameTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpoonGameTesting.debug.xcconfig"; path = "Target Support Files/Pods-SpoonGameTesting/Pods-SpoonGameTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		A225EFA024A6EE46003273EA /* UserNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNavController.swift; sourceTree = "<group>"; };
+		A225EFA224B3CF93003273EA /* CreateUserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNameViewController.swift; sourceTree = "<group>"; };
+		A23C0E5E249687A300ECC53A /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		A23C0E602496C8D200ECC53A /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		A25DE6F62482EDEC00F7631C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A26C9A3724702C9C002A0AB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A27647A4258A69FE00C903A8 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		A27647BB258A9C3500C903A8 /* CreateUserDict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserDict.swift; sourceTree = "<group>"; };
+		A27647BE258AA00700C903A8 /* GameViewDataCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewDataCollection.swift; sourceTree = "<group>"; };
 		A2A9B00C2454CE7F00783E0C /* SpoonGameTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpoonGameTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A9B00F2454CE7F00783E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2A9B0112454CE7F00783E0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +51,12 @@
 		A2A9B0182454CE8100783E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A9B01B2454CE8100783E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A9B01D2454CE8100783E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A9B0252454DBD500783E0C /* SpoonGameTesting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpoonGameTesting.entitlements; sourceTree = "<group>"; };
+		A2A9B0272454DBDB00783E0C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		A2A9B0292467167F00783E0C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A2AC124325524EE9003F60C8 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameTableViewCell.swift; path = TableViewCells/GameTableViewCell.swift; sourceTree = "<group>"; };
+		A2B7D7CC24843B7400C8264C /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		A2F290E2247C66390085B88E /* SpoonerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +64,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A9B0282454DBDC00783E0C /* CloudKit.framework in Frameworks */,
+				304094FFB59C3F2F70CA045A /* Pods_SpoonGameTesting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E4FFD11AECDE361F3B0CE26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				720DF15A0B8F2207FE14D1DF /* Pods-SpoonGameTesting.debug.xcconfig */,
+				17FC6C1393D6AD872650691B /* Pods-SpoonGameTesting.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A225EFA424BA2DE2003273EA /* Game View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2F290E2247C66390085B88E /* SpoonerTableViewCell.swift */,
+				A2AC124325524EE9003F60C8 /* GameTableViewCell.swift */,
+				A2A9B0132454CE7F00783E0C /* ViewController.swift */,
+				A27647BB258A9C3500C903A8 /* CreateUserDict.swift */,
+				A2B7D7CC24843B7400C8264C /* NavigationViewController.swift */,
+				A23C0E5E249687A300ECC53A /* UserViewController.swift */,
+				A2A9B0292467167F00783E0C /* GameViewController.swift */,
+				A27647BE258AA00700C903A8 /* GameViewDataCollection.swift */,
+				A27647A4258A69FE00C903A8 /* GameOverViewController.swift */,
+			);
+			path = "Game View Controllers";
+			sourceTree = "<group>";
+		};
+		A225EFA624BA2E0A003273EA /* SignUp View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A25DE6F62482EDEC00F7631C /* LoginViewController.swift */,
+				A23C0E602496C8D200ECC53A /* UserInfoViewController.swift */,
+				A225EFA224B3CF93003273EA /* CreateUserNameViewController.swift */,
+				A225EFA024A6EE46003273EA /* UserNavController.swift */,
+			);
+			path = "SignUp View Controllers";
+			sourceTree = "<group>";
+		};
 		A2A9B0032454CE7F00783E0C = {
 			isa = PBXGroup;
 			children = (
 				A2A9B00E2454CE7F00783E0C /* SpoonGameTesting */,
 				A2A9B00D2454CE7F00783E0C /* Products */,
+				A2A9B0262454DBDB00783E0C /* Frameworks */,
+				9E4FFD11AECDE361F3B0CE26 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +129,27 @@
 		A2A9B00E2454CE7F00783E0C /* SpoonGameTesting */ = {
 			isa = PBXGroup;
 			children = (
+				A2A9B0252454DBD500783E0C /* SpoonGameTesting.entitlements */,
 				A2A9B00F2454CE7F00783E0C /* AppDelegate.swift */,
 				A2A9B0112454CE7F00783E0C /* SceneDelegate.swift */,
-				A2A9B0132454CE7F00783E0C /* ViewController.swift */,
+				A225EFA624BA2E0A003273EA /* SignUp View Controllers */,
+				A225EFA424BA2DE2003273EA /* Game View Controllers */,
 				A2A9B0152454CE7F00783E0C /* Main.storyboard */,
 				A2A9B0182454CE8100783E0C /* Assets.xcassets */,
 				A2A9B01A2454CE8100783E0C /* LaunchScreen.storyboard */,
 				A2A9B01D2454CE8100783E0C /* Info.plist */,
+				A26C9A3724702C9C002A0AB4 /* GoogleService-Info.plist */,
 			);
 			path = SpoonGameTesting;
+			sourceTree = "<group>";
+		};
+		A2A9B0262454DBDB00783E0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2A9B0272454DBDB00783E0C /* CloudKit.framework */,
+				1BCC5D4DE5CED01583224F34 /* Pods_SpoonGameTesting.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2A9B0202454CE8100783E0C /* Build configuration list for PBXNativeTarget "SpoonGameTesting" */;
 			buildPhases = (
+				90513173B0E51F50DA8F74F3 /* [CP] Check Pods Manifest.lock */,
 				A2A9B0082454CE7F00783E0C /* Sources */,
 				A2A9B0092454CE7F00783E0C /* Frameworks */,
 				A2A9B00A2454CE7F00783E0C /* Resources */,
+				5E5CB04123CB033F537D3E0B /* [CP] Embed Pods Frameworks */,
+				90238079E1B04AF10CF15523 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -94,7 +182,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "Brad Donohue";
 				TargetAttributes = {
 					A2A9B00B2454CE7F00783E0C = {
@@ -126,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2A9B01C2454CE8100783E0C /* LaunchScreen.storyboard in Resources */,
+				A26C9A3824702C9C002A0AB4 /* GoogleService-Info.plist in Resources */,
 				A2A9B0192454CE8100783E0C /* Assets.xcassets in Resources */,
 				A2A9B0172454CE7F00783E0C /* Main.storyboard in Resources */,
 			);
@@ -133,14 +222,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E5CB04123CB033F537D3E0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpoonGameTesting/Pods-SpoonGameTesting-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpoonGameTesting/Pods-SpoonGameTesting-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpoonGameTesting/Pods-SpoonGameTesting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90238079E1B04AF10CF15523 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpoonGameTesting/Pods-SpoonGameTesting-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpoonGameTesting/Pods-SpoonGameTesting-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpoonGameTesting/Pods-SpoonGameTesting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90513173B0E51F50DA8F74F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpoonGameTesting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2A9B0082454CE7F00783E0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27647BC258A9C3500C903A8 /* CreateUserDict.swift in Sources */,
+				A225EFA324B3CF93003273EA /* CreateUserNameViewController.swift in Sources */,
+				A2B7D7CD24843B7400C8264C /* NavigationViewController.swift in Sources */,
+				A23C0E5F249687A300ECC53A /* UserViewController.swift in Sources */,
+				A25DE6F72482EDEC00F7631C /* LoginViewController.swift in Sources */,
+				A2A9B02A2467167F00783E0C /* GameViewController.swift in Sources */,
+				A27647BF258AA00700C903A8 /* GameViewDataCollection.swift in Sources */,
+				A225EFA124A6EE46003273EA /* UserNavController.swift in Sources */,
 				A2A9B0142454CE7F00783E0C /* ViewController.swift in Sources */,
 				A2A9B0102454CE7F00783E0C /* AppDelegate.swift in Sources */,
+				A23C0E612496C8D200ECC53A /* UserInfoViewController.swift in Sources */,
+				A2F290E3247C66390085B88E /* SpoonerTableViewCell.swift in Sources */,
 				A2A9B0122454CE7F00783E0C /* SceneDelegate.swift in Sources */,
+				A2AC124425524EE9003F60C8 /* GameTableViewCell.swift in Sources */,
+				A27647A5258A69FE00C903A8 /* GameOverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +352,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +413,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -282,8 +444,10 @@
 		};
 		A2A9B0212454CE8100783E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720DF15A0B8F2207FE14D1DF /* Pods-SpoonGameTesting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpoonGameTesting/SpoonGameTesting.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RTJ3C298Y4;
 				INFOPLIST_FILE = SpoonGameTesting/Info.plist;
@@ -291,8 +455,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.BDonohue.SpoonGameTesting;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BDonohue.Spoon-Game9601";
+				PRODUCT_NAME = SpoonGameTesting;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +464,10 @@
 		};
 		A2A9B0222454CE8100783E0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17FC6C1393D6AD872650691B /* Pods-SpoonGameTesting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpoonGameTesting/SpoonGameTesting.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RTJ3C298Y4;
 				INFOPLIST_FILE = SpoonGameTesting/Info.plist;
@@ -309,8 +475,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.BDonohue.SpoonGameTesting;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BDonohue.Spoon-Game9601";
+				PRODUCT_NAME = SpoonGameTesting;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
